@@ -62,6 +62,15 @@ blue {
   # this is used in emails sent to users or to generate links to the service.
   base-url = "http://${http.host}:${http.port}/"
 
+  # the kind of registration confirmation process, one of:
+  #  - `email-confirmation` set a default password and send a confirmation email
+  #    asking the newly registered user to set a new password
+  #  - `email-summary` the user chooses his password upon registration and
+  #    then receives an information email with summary of registration
+  #   `no-email` the user chooses his password upon registration and receives no
+  #   email
+  registration-confirmation = "no-email"
+
   # the base directory where the working data are saved
   data = "/var/lib/blue"
 
