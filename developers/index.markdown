@@ -22,7 +22,7 @@ You need:
 * jsvc (`aptitude install jsvc`)
 * couchdb (`aptitude install couchdb`)
 
-Couchdb should be automatically started, if not start it (`service couchdb start`). By default, couchdb runs in admin party (no password) on port 5894.
+Couchdb should be automatically started, if not start it (`service couchdb start`). By default, couchdb runs in admin party (no password) on port 5984.
 
 ## Compiling \BlueLaTeX
 
