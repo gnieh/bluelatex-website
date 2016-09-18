@@ -24,6 +24,15 @@ You need:
 
 Couchdb should be automatically started, if not start it (`service couchdb start`). By default, couchdb runs in admin party (no password) on port 5984.
 
+You will also need a mail server (SMTP server), listening on port 12525. For development, you can use the one bundled in python:
+
+```shell
+$ python -m smtpd -n -c DebuggingServer localhost:12525
+```
+
+This will launch an instance of the python's SMTP debugging server on port 12525 and will display all received messages on the console.
+
+
 ## Compiling \BlueLaTeX
 
 To start working on \BlueLaTeX, you will need to execute these commands:
