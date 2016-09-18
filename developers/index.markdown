@@ -72,7 +72,7 @@ Then, to start the server, type:
 $ sbt blueStart
 ```
 
-You can then access the web application by going to [http://localhost:18080/web/](http://localhost:18080/web/).
+You can then access the web application by going to [http://localhost:18080/](http://localhost:18080/).
 
 To stop the test server just type:
 
